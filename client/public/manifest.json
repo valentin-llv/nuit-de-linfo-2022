@@ -1,0 +1,17 @@
+{
+    "name":"QuestionsQ",
+    "short_name":"QuestionsQ",
+    "lang": "fr",
+
+    "description":"",
+
+    "start_url":"/",
+    "scope":"/",
+    "id": "/",
+
+    "theme_color":"#FFAFCC",
+    "background_color":"#F4F4F4",
+
+    "display":"standalone",
+    "orientation": "portrait"
+}
