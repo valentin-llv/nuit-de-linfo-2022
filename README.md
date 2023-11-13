@@ -4,8 +4,8 @@
 
 Pour cette nuit 2022 nous avons réalisé un site internet "gamifié".
 
-Le site se découpe en deux grandes parties:
-_ les quizs
+Le site se découpe en deux grandes parties:<br />
+_ les quizs<br />
 _ les articles
 
 Nous avons pris le parti de faire des quizs pour les utilisateurs qui ne sont pas très informés sur les sujets de la sexualité afin qu'ils puissent découvrir les points clé des sujets tout en profitant d'une expérience de type jeu.
@@ -14,10 +14,10 @@ La partie quiz permet aussi de retenir un public peu attentif et dont il est dif
 La deuxième partie permet en revanche de plus approfondir chaque sujet. Les personnes qui connaissent déjà les bases peuvent approfondir leurs conaissances grâce aux articles.
 Les articles permettent d'attirer aussi un public un peu informé mais qui souhaite approfondir ses connaissances.
 
-Nous avons créé quatre grandes parties pour les sujets:
-_ les ISTs
-_ les VSS
-_ la puberté
+Nous avons créé quatre grandes parties pour les sujets:<br />
+_ les ISTs<br />
+_ les VSS<br />
+_ la puberté<br />
 _ LGBTQIA+
 
 ## Technologies
@@ -31,11 +31,11 @@ Pour les CSS nous avons utilisé TailwindCSS.
 
 Nous avons optimisé le code et les ressources pour réduire au maximum l'empreinte carbone du site.
 
-Voici la liste de actions que nous avons optimisées:
-_ utilisation d'image vectorielle SVG
-_ optimisation du nombre de balises HTML et CSS dans la limite du possible
-_ proposition d'un mode sombre
-_ site internet sous forme de SPA
+Voici la liste de actions que nous avons optimisées:<br />
+_ utilisation d'image vectorielle SVG<br />
+_ optimisation du nombre de balises HTML et CSS dans la limite du possible<br />
+_ proposition d'un mode sombre<br />
+_ site internet sous forme de SPA<br />
 _ utilisation des pwa et du cache (voir ci-dessous)
 
 Toutes ces optimisations ont porté leurs fruits. Le site atteint un score de 100/100 en performance sur Lighthouse de Google.
@@ -43,8 +43,9 @@ Toutes ces optimisations ont porté leurs fruits. Le site atteint un score de 10
 ### SPA
 
 Ce site est une SPA (Single Page APP). C'est à a dire que toute les données sont chargées lors du premier chargement de page.
-Une SPA permet plusieurs avantages:
-_ les chagement de pages sont instatené. En effet toute les données sont déjà chargé il n'y à donc pas de ressources à charger à nouveaux
+
+Une SPA permet plusieurs avantages:<br />
+_ les chagement de pages sont instatené. En effet toute les données sont déjà chargé il n'y à donc pas de ressources à charger à nouveaux<br />
 _ il est plus facile d'applique une politique de cache performante (voir PWA)
 
 L'inconvéniens majeur et que le premier chargement est légèrement plus long que pour un site non-SPA et la quantité de données chargé lors du premier chargement et un peu plus importante.
@@ -68,7 +69,7 @@ Dans la continuité de l'optimisation de l'empreinte carbone, le site est auto-h
 Le serveur est un Raspberry Pi 4, configuré avec Apache2 comme serveur web.
 
 Nous avons par contre décidé de ne pas acheter un domaine pour le projet, nous avons donc enregistré le site comme un sous-domaine d'un domaine existant.
-L'url de notre site: [https://questionsq.valentin-lelievre.com](https://questionsq.valentin-lelievre.com)
+L'url de notre site: [QuestionsQ](https://questionsq.valentin-lelievre.com)
 
 ## Bonne pratique
 
@@ -76,15 +77,15 @@ Le site répond aux critères de base de l'accessibilité. Les contrastes des te
 
 ## Github
 
-Lien du repo Github: https://github.com/valentin-llv/NuitDeLinfos2022/tree/master/client
+Lien du repo Github: https://github.com/valentin-llv/nuit-de-linfo-2022
 
 ## Réalisation
 
-Ce projet a été réalisé par:
-_ Valentin Le Lièvre
-_ Basile Hallouin
-_ Adrien Gasquet
-_ Benjamin Lamon
-_ Amandine Langlais
-_ Nicolas Alluchon
+Ce projet a été réalisé par:<br />
+_ [Valentin Le Lièvre](https://github.com/valentin-llv)<br />
+_ Basile Hallouin<br />
+_ Adrien Gasquet<br />
+_ Benjamin Lamon<br />
+_ Amandine Langlais<br />
+_ Nicolas Alluchon<br />
 _ Alix Léron
